@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esty.Droid", "Esty\Esty.Droid\Esty.Droid.csproj", "{0922017B-D471-44AC-9928-1D06872057B1}"
 EndProject
@@ -18,6 +18,10 @@ EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Esty\Esty\Esty.projitems*{a3dc06df-4949-48f7-b89c-7a26c15e70c5}*SharedItemsImports = 13
+		Esty\Esty\Esty.projitems*{0922017b-d471-44ac-9928-1d06872057b1}*SharedItemsImports = 4
+		Esty\Esty\Esty.projitems*{b40f00fe-6984-4b89-a64f-d8f27e23c81c}*SharedItemsImports = 4
+		Esty\Esty\Esty.projitems*{b9e83767-6396-447c-a578-98d1e74e74ee}*SharedItemsImports = 4
+		Esty\Esty\Esty.projitems*{313c635c-2045-4728-8def-65f6ceb8d3bc}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU

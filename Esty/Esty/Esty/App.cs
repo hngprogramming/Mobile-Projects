@@ -18,7 +18,7 @@ namespace Esty
 					Children = {
 						new Label {
 							HorizontalTextAlignment = TextAlignment.Center,
-							Text = "Welcome to Xamarin Forms!"
+							Text = "Testing git!"
 						}
 					}
 				}
