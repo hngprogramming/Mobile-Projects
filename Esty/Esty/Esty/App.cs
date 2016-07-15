@@ -9,6 +9,19 @@ namespace Esty
 {
 	public class App : Application
 	{
+
+        static AppRepository repository;
+        public static AppRepository Repository {
+            get
+            {
+                if (repository == null)
+                {
+                    repository = new AppRepository();
+                }
+                return repository;
+            }
+        }
+
 		public App ()
 		{
 			// The root page of your application

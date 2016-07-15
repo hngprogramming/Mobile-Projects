@@ -5,7 +5,7 @@ using SQLite;
 
 namespace Esty
 {
-    class Routine : IObject
+    public class Routine : IObject
     {
         [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
@@ -20,6 +20,7 @@ namespace Esty
         // spending/earning/unknown
         public byte Type { get; set; }
 
-
+        // day mode: working day / regular day
+        public bool DayMode { get; set; }
     }
 }

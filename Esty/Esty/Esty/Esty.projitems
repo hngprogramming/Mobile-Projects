@@ -10,7 +10,11 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AppDatabaseGeneric.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AppRepository.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Period.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Plan.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Routine.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SQLite.cs" />
   </ItemGroup>
