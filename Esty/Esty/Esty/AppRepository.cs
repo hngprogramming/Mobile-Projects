@@ -42,5 +42,50 @@ namespace Esty
         {
             return AppDatabase.GetObject<Plan>(id);
         }
+
+        public IEnumerable<Plan> GetPlans()
+        {
+            return AppDatabase.GetObjects<Plan>();
+        }
+
+        public int SavePlan(Plan plan)
+        {
+            return AppDatabase.SaveObject<Plan>(plan);
+        }
+
+        public int DeletePlan(int id)
+        {
+            return AppDatabase.DeleteObject<Plan>(id);
+        }
+
+        public void DeleteAllPlans()
+        {
+            AppDatabase.DeleteAllObjects<Plan>();
+        }
+
+        public Unit GetPeriod(int id)
+        {
+            return AppDatabase.GetObject<Unit>(id);
+        }
+
+        public IEnumerable<Unit> GetPeriods()
+        {
+            return AppDatabase.GetObjects<Unit>();
+        }
+
+        public int SavePeriod(Unit Unit)
+        {
+            return AppDatabase.SaveObject<Unit>(Unit);
+        }
+
+        public int DeletePeriod(int id)
+        {
+            return AppDatabase.DeleteObject<Unit>(id);
+        }
+
+        public void DeleteAllPeriods()
+        {
+            AppDatabase.DeleteAllObjects<Unit>();
+        }
     }
 }

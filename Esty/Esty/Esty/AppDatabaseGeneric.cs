@@ -17,7 +17,7 @@ namespace Esty
             database = new SQLite.SQLiteConnection(databasePath);
             database.CreateTable<Routine>();
             database.CreateTable<Plan>();
-            database.CreateTable<Period>();
+            database.CreateTable<Unit>();
         }
 
         protected string databasePath {

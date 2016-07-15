@@ -12,6 +12,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)AppDatabaseGeneric.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)AppRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataAccessPageRepository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DayMode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)HomePage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IObject.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Period.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Plan.cs" />

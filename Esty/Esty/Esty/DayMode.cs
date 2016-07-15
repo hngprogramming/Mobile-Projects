@@ -5,13 +5,10 @@ using SQLite;
 
 namespace Esty
 {
-    public class Unit : IObject
+    public class DayMode : IObject
     {
-        [PrimaryKey, AutoIncrement]
         public int ID { get; set; }
 
         public string Name { get; set; }
-
-        public int Hour { get; set; }
     }
 }
